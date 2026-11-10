@@ -25,11 +25,25 @@ DOI / Reference: https://doi.org/10.1016/j.compag.2020.105507
 
 ## Methodology
 The project follows a structured machine learning workflow:  
-Data Overview/Collection  
-Data Preprocessing   
-Exploratory Data Analysis (EDA)    
-Feature Engineering    
-Feature Analysis and Selection   
-Model Selection   
-Hyperparameter Tuning   
-Model Evaluation
+- Data Overview/Collection  
+- Data Preprocessing   
+- Exploratory Data Analysis (EDA)    
+- Feature Engineering    
+- Feature Analysis and Selection   
+- Model Selection   
+- Hyperparameter Tuning   
+- Model Evaluation
+
+
+
+
+
+
+
+
+## Tech Stack   
+Programming Language: Python   
+Libraries: NumPy, Pandas, Matplotlib, Seaborn  
+Machine Learning packages/tools: Scikit-Learn, PyTorch  
+Model Used: Logistic Regression, Support Vector Classifier (SVC), XGBoost, Feedforward Neural Network (FNN)/ Multilayer Perceptrons (MLPs)  
+
