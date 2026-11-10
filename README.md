@@ -34,6 +34,11 @@ The project follows a structured machine learning workflow:
 - Hyperparameter Tuning   
 - Model Evaluation
 
+## Key Findings  
+* The PCA visualization demonstrates that the first two principal components explain 81.9% of the total variance in the dry bean morphological dataset, indicating that the data can be effectively represented in two dimensions with relatively little information loss. The BOMBAY class exhibits particularly strong separation from the other bean varieties, while SEKER also forms a relatively distinct cluster. However, considerable overlap is observed among BARBUNYA, CALI, SIRA, HOROZ, and DERMASON, suggesting similarities in their morphological characteristics. This observation can also be seen looking at the box plot of different classes across the various predictors.
+
+* The correlation analysis reveals substantial relationships among the morphological features of the Dry Bean dataset. Strong positive correlations are observed between size-related features, particularly Area and ConvexArea (0.9999), while Compactness and ShapeFactor3 also exhibit an almost perfect positive correlation (0.9987). Additionally, AspectRatio and Eccentricity demonstrate a strong positive relationship (0.9242), indicating similarities in the geometric information they capture. These findings suggest the presence of multicollinearity and potential feature redundancy. Therefore, feature selection and dimensionality reduction techniques, particularly PCA, may be beneficial in reducing redundant information while retaining important characteristics for subsequent classification.
+
 
 
 
