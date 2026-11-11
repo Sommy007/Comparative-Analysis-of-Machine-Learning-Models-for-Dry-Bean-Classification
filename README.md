@@ -43,7 +43,26 @@ The project follows a structured machine learning workflow:
 
 
 
+## Model Performance Comparison
+### 1. Accuracy Comparison
 
+![Accuracy Comparison](Files/accuracy_comparison.png)
+
+
+### 2. Macro Average F1-score Comparison
+
+![Macro F1-score Comparison](Files/macro_f1_comparison.png)
+
+### Results and Discussion   
+The performance of four machine learning models was evaluated across three experimental cases using accuracy and macro average F1-score.   
+**Logistic Regression:** Demonstrated relatively consistent performance across all three cases.    
+**SVC:** Achieved strong performance, particularly in CASE 1.   
+**XGBoost:** Showed improved performance across the experimental cases, achieving the highest accuracy and macro average F1-score in CASE 3.   
+**Neural Network:** Achieved competitive performance, obtaining the highest accuracy and macro average F1-score in CASE 2.   
+Overall, XGBoost and Neural Network demonstrated the strongest performance across the evaluated cases.
+
+
+**NOTE: cases are defined based on features selected for the model building and evaluation.**
 
 
 ## Tech Stack   
